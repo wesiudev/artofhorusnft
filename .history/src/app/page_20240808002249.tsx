@@ -1,19 +1,18 @@
 import Graces from "@/components/Graces";
 import styles from "./page.module.css";
 import { Metadata } from "next";
-import Image from "next/image";
 export default function Home() {
   return (
     <div>
       <div
         style={{
-          background: "#455729",
           width: "100vw",
           height: "100vh",
           position: "fixed",
           zIndex: 1,
           top: 0,
           left: 0,
+          background: "#111111",
           overflow: "hidden",
         }}
       >
@@ -34,47 +33,21 @@ export default function Home() {
               top: "50%",
               transform: "translate(-50%, -50%)",
               padding: "8px",
-              textShadow: "0px 15px 48px #45a62a",
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
+              textShadow: "3px 3px 48px #455c2a",
             }}
           >
-            <Image
-              src="/favicon.png"
-              width={420}
-              height={420}
-              alt="logo artofhorusnft website"
-              style={{
-                marginBottom: "48px",
-                width: "220px",
-                height: "220px",
-                borderRadius: "16px",
-              }}
-            />
             <h1
-              className="h1"
               style={{
                 fontStyle: "italic",
+                fontSize: "42px",
                 textAlign: "center",
+
                 zIndex: 2,
                 color: "#fff",
               }}
             >
               ARTOFHORUSNFT.COM
             </h1>
-            <div
-              style={{
-                width: "100%",
-                display: "flex",
-                justifyContent: "space-between",
-                marginTop: "48px",
-              }}
-            >
-              <div>JUŻ</div>
-              <div>WKRÓTCE</div>
-            </div>
           </div>
         </div>
       </div>

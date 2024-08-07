@@ -142,3 +142,10 @@ a {
     font-size: 0.8rem;
   }
 }
+.graceWrapper {
+  scale: 1;
+
+  @media (max-width: 700px) {
+    scale: 0.6;
+  }
+}

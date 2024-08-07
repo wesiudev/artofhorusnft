@@ -47,7 +47,7 @@ export default function Home() {
               height={420}
               alt="logo artofhorusnft website"
               style={{
-                marginBottom: "48px",
+                marginTop: "48px",
                 width: "220px",
                 height: "220px",
                 borderRadius: "16px",

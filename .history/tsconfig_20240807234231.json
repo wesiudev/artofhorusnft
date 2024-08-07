@@ -26,7 +26,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "src/components/Graces.js"
+    "src/components/threegraces.js"
   ],
   "exclude": ["node_modules"]
 }

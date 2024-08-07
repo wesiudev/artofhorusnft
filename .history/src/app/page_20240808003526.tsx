@@ -37,22 +37,8 @@ export default function Home() {
               textShadow: "0px 15px 48px #45a62a",
               display: "flex",
               flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
             }}
           >
-            <Image
-              src="/favicon.png"
-              width={420}
-              height={420}
-              alt="logo artofhorusnft website"
-              style={{
-                marginBottom: "48px",
-                width: "220px",
-                height: "220px",
-                borderRadius: "16px",
-              }}
-            />
             <h1
               className="h1"
               style={{
@@ -75,6 +61,12 @@ export default function Home() {
               <div>JUŻ</div>
               <div>WKRÓTCE</div>
             </div>
+            <Image
+              src="/horuseye.png"
+              width={420}
+              height={420}
+              alt="logo artofhorusnft website"
+            />
           </div>
         </div>
       </div>
