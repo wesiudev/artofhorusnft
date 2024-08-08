@@ -42,14 +42,14 @@ export default function Home() {
             }}
           >
             <Image
-              src="/favIcon2.png"
-              width={840}
-              height={840}
+              src="/favicon.png"
+              width={420}
+              height={420}
               alt="logo artofhorusnft website"
               style={{
                 marginBottom: "48px",
-                width: "320px",
-                height: "auto",
+                width: "220px",
+                height: "220px",
                 borderRadius: "16px",
               }}
             />

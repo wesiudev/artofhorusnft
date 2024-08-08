@@ -30,11 +30,12 @@ export default function Home() {
           <div
             style={{
               position: "fixed",
+              padding: "12px",
               left: "50%",
               top: "50%",
               transform: "translate(-50%, -50%)",
               padding: "8px",
-              textShadow: "0px 15px 48px #45a62a",
+              textShadow: "0px 15px 48px #fff",
               display: "flex",
               flexDirection: "column",
               justifyContent: "center",
@@ -42,14 +43,14 @@ export default function Home() {
             }}
           >
             <Image
-              src="/favIcon2.png"
-              width={840}
-              height={840}
+              src="/favicon.png"
+              width={420}
+              height={420}
               alt="logo artofhorusnft website"
               style={{
                 marginBottom: "48px",
-                width: "320px",
-                height: "auto",
+                width: "220px",
+                height: "220px",
                 borderRadius: "16px",
               }}
             />
@@ -59,7 +60,12 @@ export default function Home() {
                 fontStyle: "italic",
                 textAlign: "center",
                 zIndex: 2,
-                color: "#fff",
+                color: "white",
+                background:
+                  "linear-gradient(270deg, #44602A, #45A42A, #45A42A)",
+                backgroundClip: "text",
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
               }}
             >
               ARTOFHORUSNFT.COM
@@ -76,10 +82,10 @@ export default function Home() {
                   borderRadius: "8px",
                   color: "black",
                   padding: "8px",
-                  background: "white",
+                  background: "#fff",
                   width: "max-content",
                   margin: "0 auto",
-                  boxShadow: "0px 5px 18px #45a62a",
+                  cursor: "pointer",
                 }}
               >
                 COMMING SOON

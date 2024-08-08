@@ -42,14 +42,14 @@ export default function Home() {
             }}
           >
             <Image
-              src="/favIcon2.png"
-              width={840}
-              height={840}
+              src="/favicon.png"
+              width={420}
+              height={420}
               alt="logo artofhorusnft website"
               style={{
                 marginBottom: "48px",
-                width: "320px",
-                height: "auto",
+                width: "220px",
+                height: "220px",
                 borderRadius: "16px",
               }}
             />
@@ -74,12 +74,12 @@ export default function Home() {
               <div
                 style={{
                   borderRadius: "8px",
-                  color: "black",
+                  color: "yellow",
                   padding: "8px",
                   background: "white",
                   width: "max-content",
                   margin: "0 auto",
-                  boxShadow: "0px 5px 18px #45a62a",
+                  cursor: "pointer",
                 }}
               >
                 COMMING SOON
