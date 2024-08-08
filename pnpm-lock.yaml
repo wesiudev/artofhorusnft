@@ -11,6 +11,15 @@ dependencies:
   '@react-three/fiber':
     specifier: ^8.16.8
     version: 8.16.8(react-dom@18.0.0)(react@18.0.0)(three@0.167.1)
+  '@types/three':
+    specifier: ^0.167.1
+    version: 0.167.1
+  framer-motion:
+    specifier: ^11.3.23
+    version: 11.3.23(react-dom@18.0.0)(react@18.0.0)
+  framer-motion-3d:
+    specifier: ^11.3.23
+    version: 11.3.23(@react-three/fiber@8.16.8)(react-dom@18.0.0)(react@18.0.0)(three@0.167.1)
   maath:
     specifier: ^0.10.8
     version: 0.10.8(@types/three@0.167.1)(three@0.167.1)
@@ -23,6 +32,9 @@ dependencies:
   react-dom:
     specifier: ^18
     version: 18.0.0(react@18.0.0)
+  three:
+    specifier: ^0.167.1
+    version: 0.167.1
 
 devDependencies:
   '@types/node':
@@ -1508,6 +1520,43 @@ packages:
       signal-exit: 4.1.0
     dev: true
 
+  /framer-motion-3d@11.3.23(@react-three/fiber@8.16.8)(react-dom@18.0.0)(react@18.0.0)(three@0.167.1):
+    resolution: {integrity: sha512-/bM7Ip9I990fre2Z6FyYxqHm16luP3wQGZInR2hIU9mNALWDq3lnR6qChmV5DwW7QaCIPgd+qXJr5v6GNwGnmw==}
+    peerDependencies:
+      '@react-three/fiber': ^8.2.2
+      react: '>=18.0'
+      react-dom: '>=18.0'
+      three: '>=0.133'
+    dependencies:
+      '@react-three/fiber': 8.16.8(react-dom@18.0.0)(react@18.0.0)(three@0.167.1)
+      framer-motion: 11.3.23(react-dom@18.0.0)(react@18.0.0)
+      react: 18.0.0
+      react-dom: 18.0.0(react@18.0.0)
+      react-merge-refs: 2.1.1
+      three: 0.167.1
+    transitivePeerDependencies:
+      - '@emotion/is-prop-valid'
+    dev: false
+
+  /framer-motion@11.3.23(react-dom@18.0.0)(react@18.0.0):
+    resolution: {integrity: sha512-jlUDZmNgB2i5vjze7Yezlne0OBSRVfk9J+5JXsujP3mogwCAhAQO+JBokWCPoO2XkNZOrPf7NuZKJtrNRgc/qQ==}
+    peerDependencies:
+      '@emotion/is-prop-valid': '*'
+      react: ^18.0.0
+      react-dom: ^18.0.0
+    peerDependenciesMeta:
+      '@emotion/is-prop-valid':
+        optional: true
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      react: 18.0.0
+      react-dom: 18.0.0(react@18.0.0)
+      tslib: 2.6.3
+    dev: false
+
   /fs.realpath@1.0.0:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
     dev: true
@@ -2356,6 +2405,10 @@ packages:
 
   /react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
+
+  /react-merge-refs@2.1.1:
+    resolution: {integrity: sha512-jLQXJ/URln51zskhgppGJ2ub7b2WFKGq3cl3NYKtlHoTG+dN2q7EzWrn3hN3EgPsTMvpR9tpq5ijdp7YwFZkag==}
+    dev: false
 
   /react-reconciler@0.27.0(react@18.0.0):
     resolution: {integrity: sha512-HmMDKciQjYmBRGuuhIaKA1ba/7a+UsM5FzOZsMO2JYHt9Jh8reCb7j1eDC95NOyUlKM9KRyvdx0flBuDvYSBoA==}
